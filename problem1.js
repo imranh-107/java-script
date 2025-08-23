@@ -1,5 +1,5 @@
-let num = prompt("enter a number: ");
-if(num%5===0)
+let num prompt("enter a number: ");
+if(num%5===0);
 {
     console.log(num, "is multipul by 5");
 }
