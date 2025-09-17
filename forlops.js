@@ -1,19 +1,13 @@
-jfor(let i=1;i<=5;i++){
-    console.log("imran hosen");
+//let subject=['bat','banana','mango','choclet' ];
+let famely=[2002,1980,1972,2007,2007]
+for(let sub of famely){
+    console.log(sub);
 }
-console.log("loops ended");
+ 
 
 
-let sum=0;
-for(let i=1;i<=7;i++){
-    sum=sum+i;
-}
-console.log("sum=",sum)
 
-for(let i=0;i<=100;i++){
-    if(i%2!==0){
-         console.log("num=",i);
-    }
-   
-}
+
+
+
 
