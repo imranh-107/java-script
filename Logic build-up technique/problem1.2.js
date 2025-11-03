@@ -1,16 +1,26 @@
-function tex(incomeamount){
-    if (incomeamount<=50000){
-        return 10;
+function shopbil(weight){
+    if (weight<=10){
+        return 100;
     }
-    else if(incomeamount<= 100000){
-        return 20;
+    else if(weight<=20){
+        return 300;
     }
-     else if (incomeamount<=200000){
-        return 30;
+    else if(weight<=50){
+        return 1000;
+    } 
+
+
+    else{
+        return 1000+(weight-50)*100;
     }
-    else {
-    return 40;
-    }
-    
-}let bet=tex(500000);
-console.log(bet);
+}
+/*else{
+    let sum=1000;
+        for( let i=51;i<=weight;i++){
+         sum += 100;      
+    } 
+    return sum;}} */        
+
+ 
+let totalbil=shopbil(74);
+console.log(totalbil);
