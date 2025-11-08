@@ -1,4 +1,4 @@
-function multiplay(num=1){
+function multiply(num=1){
     return num*num;
 }
 let answer=multiplay();
