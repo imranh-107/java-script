@@ -1,0 +1,2 @@
+const email=`A live emoji panel that pops up when you hit : and start typing - just like Slack, Discord, and every other app that figured this out before us. Type a few letters, get instant suggestions, pick your emoji, keep moving. No menus to click through. No OS keyboard gymnastics. No awkward pasting.`
+console.log(email);
